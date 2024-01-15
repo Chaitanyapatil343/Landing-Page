@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.Navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.Logo p{
+    color: #2B3D29;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.options a{
+    display: inline;
+    margin-right: 25px;
+    border-color: #B3B7C9;
+    border-radius: 25px;
+    padding: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #725D4A;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.options a:hover{
+    background-color: #767E5F;
+    color: aliceblue;
+}
+
+.options{
+    width: 70%;
+    display: flex;
+    justify-content: right;
+}
+
+#last{
+    margin-right: 10px;
+}
+
+/**-------------------------------------------HERO_SECTION-1------------------------------------------**/
+
+.hero_section-1{
+    background-image: url(pwww.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+/**-------------------------------------------HERO_SECTION-2------------------------------------------**/
+
+.hero_section-2{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+plants{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+.boxp{
+    width: 280px;
+    height: 375px;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.upp{
+    height: 80%;
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+
+.upp:hover{
+    transform: scale(1.1);
+}
+
+.downp{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+dpu{
+    font-size: 18px;
+}
+
+dlp{
+    font-size: 14px;
+    font-weight: 30;
+}
+
+view{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: small;
+    text-align: center;
+}
+
+/**-------------------------------------------HERO_SECTION-3------------------------------------------**/
+
+.hero_section-3{
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.left{
+    margin-top: 18px;
+    height: 780px;
+    width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.right{
+    background-image: url(pot7.jpg);
+    background-size: cover;
+    margin-top: 38px;
+    height: 780px;
+    width: 700px;
+
+}
+
+/**--------------------------------------------------------------------------------------**/
+
+.boxpt{
+    width: 280px;
+    height: 375px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.uppt{
+    height: 80%;
+    background-size: cover;
+    transition: all 1s ease-in;
+}
+
+.uppt:hover{
+    transform: scale(1.1);
+}
+
+.downpt{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+dput{
+    font-size: 18px;
+}
+
+dlpt{
+    font-size: 14px;
+}
+
+pots{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: xx-large;
+}
+
+footer{
+    background-color: #2B3D29;
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ph{
+    color: aliceblue;
+    font-weight: 400;
+}

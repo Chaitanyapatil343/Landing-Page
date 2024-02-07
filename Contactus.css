@@ -14,7 +14,7 @@ border: 2px, solid, black;
 height:40px;
 width: 700px;
 padding-left:15px;
-border-radius:20;
+border-radius:20px;
 }
 
 input[type=submit]{

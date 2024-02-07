@@ -18,6 +18,7 @@ border-radius:10px;
 }
 
 input[type=submit]{
+font-weight:100;
 color: white;
 border: none;
 text-align: left;

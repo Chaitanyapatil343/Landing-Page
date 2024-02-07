@@ -17,6 +17,10 @@ padding-left:15px;
 border-radius:10px;
 }
 
+#comment{
+  height:300px;
+}
+
 input[type=submit]{
 font-weight:100;
 color: white;
